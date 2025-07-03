@@ -4,6 +4,7 @@ print(friends_names[0])
 print(friends_names[1])
 print(friends_names[2])
 print(friends_names[3])
+print(friends_names)
 
 # 3-2 Greetings Print a message to each of the friends from 3-1, the message should be the same to each person just change the name
 message = "Hi, I miss you "
