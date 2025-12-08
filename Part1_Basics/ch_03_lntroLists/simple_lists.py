@@ -29,3 +29,7 @@ statement = f"I want to own a {transportation[2]}"
 print(statement)
 statement = f"I want to own a {transportation[3]}"
 print(statement)
+
+#3-9 Dinner Guests: Working with one of the programs from Exercies 3-4 to 3-7 use len() to print a message indicating the number of people.
+print(len(transportation))
+print(len(friends_names))

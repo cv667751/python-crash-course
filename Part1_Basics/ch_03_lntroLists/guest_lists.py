@@ -61,3 +61,6 @@ del guestList[0]
 print(guestList)
 del guestList[0]
 print(guestList)
+
+#3-9 Dinner Guests: Working with one of the programs from Exercies 3-4 to 3-7 use len() to print a message indicating the number of people.
+print(len(guestList))

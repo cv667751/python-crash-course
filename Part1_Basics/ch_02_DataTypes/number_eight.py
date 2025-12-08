@@ -14,3 +14,5 @@ print(10-2)
 favorite_number = 12
 message = f"My birthday is on December the {favorite_number}"
 print(message)
+message = f"{favorite_number}"
+print(message)
