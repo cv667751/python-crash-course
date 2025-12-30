@@ -17,18 +17,22 @@ print(sorted(vacation, reverse=True))
 # show that list is still in original order
 print(vacation)
 
-# use reverse() to change the order of your list and print the list to show order has changed
+# use reverse() to change the order of your list and 
+# print the list to show order has changed
 vacation.reverse()
 print(vacation)
 
-# use reverse() to change the order again, print the list to show it's back to original order
+# use reverse() to change the order again, 
+# print the list to show it's back to original order
 vacation.reverse()
 print(vacation)
 
-# use sort() to change your list so it's stored in alpha order and print the list to show order has been changed
+# use sort() to change your list so it's stored in alpha order and 
+# print the list to show order has been changed
 vacation.sort()
 print(vacation)
 
-# use sort() to change your list so it's stored in reverse-alpha order print the list to show that its order has changed. 
+# use sort() to change your list so it's stored in reverse-alpha order 
+# print the list to show that its order has changed. 
 vacation.sort(reverse=True)
 print(vacation)

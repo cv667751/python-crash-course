@@ -1,4 +1,5 @@
-# 3-4 Guest List Make a list that includes at least 3 people and use your list to print a message inviting them to dinner.
+# 3-4 Guest List Make a list that includes at least 3 people 
+# and use your list to print a message inviting them to dinner.
 guestList = ['Husband', 'Mom', 'Dad', 'Brother']
 invite = f"You are invited to the dinner next weekend, hope you can make it"
 print(f"{invite} {guestList[0]}")
@@ -38,11 +39,15 @@ print(f"{invite} {guestList[4]}")
 print(f"{invite} {guestList[5]}")
 print(f"{invite} {guestList[6]}")
 
-# 3-7 Shrinking Guest List Bigger table is not arriving on time and have space only for two guests. 
+# 3-7 Shrinking Guest List Bigger table is not arriving on time 
+# and have space only for two guests. 
 # Let guests know only two can be invited because table is going to arrive another day. 
-print("Hello everyone, sorry but we have change of plans. The bigger table will not make it on time for the dinner. Only two of you will be able to attend. ")
+print("Hello everyone, sorry but we have change of plans. " \
+"The bigger table will not make it on time for the dinner. " \
+"Only two of you will be able to attend. ")
 
-# Use pop to remove guests one at a time, until only two remain. Each time you pop a name, print a message for them. 
+# Use pop to remove guests one at a time, until only two remain. 
+# Each time you pop a name, print a message for them. 
 popped_guestList = guestList.pop()
 print(f"Sorry we had to remove you from guest list {popped_guestList}")
 popped_guestList = guestList.pop()

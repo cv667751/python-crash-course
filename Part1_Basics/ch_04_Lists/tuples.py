@@ -1,4 +1,5 @@
-# 4-13 Buffet: A buffet style restaurant offers only five basic foods, store them in a tuple.
+# 4-13 Buffet: A buffet style restaurant offers only five basic foods, store 
+# them in a tuple.
 basic_food = ('chicken', 'beef', 'soup', 'salad', 'pasta')
 
 # use a for loop to print items
